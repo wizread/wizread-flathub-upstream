@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=WizRead
-Comment=A beautiful ebook and PDF reader
+Comment=A modern eBook reader
 Exec=wizread %U
 Terminal=false
 Type=Application
