@@ -2,9 +2,9 @@
 <component type="desktop-application">
   <id>io.wizread.WizRead</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>LicenseRef-proprietary=https://wizread.io/terms</project_license>
+  <project_license>LicenseRef-proprietary=https://wizread.io/tos/</project_license>
   <name>WizRead</name>
-  <summary>A beautiful ebook and PDF reader</summary>
+  <summary>A beautiful ebook readerr</summary>
   
   <developer id="io.wizread">
     <name>WizRead Team</name>
@@ -12,17 +12,33 @@
 
   <description>
     <p>
-      WizRead is a fast, clean, and feature-rich reader designed for EPUB books and PDF files.
+      WizRead is a clean, fast, and feature-rich reader. Built for avid readers who want more from their digital library, it combines an elegant distraction-free reading interface with deep analytical tracking and community engagement features.
     </p>
   </description>
   <launchable type="desktop-id">io.wizread.WizRead.desktop</launchable>
   <url type="homepage">https://wizread.io</url>
+  
   <screenshots>
     <screenshot type="default">
-      <caption>Main Library Screen</caption>
-      <image>https://raw.githubusercontent.com/wizread/wizread-desktop/main/resources/screenshot.png</image>
+      <caption>Main Home Dashboard</caption>
+      <image type="source">https://raw.githubusercontent.com/wizread/wizread-flathub-upstream/main/preview_1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Immersive Reader View</caption>
+      <image type="source">https://raw.githubusercontent.com/wizread/wizread-flathub-upstream/main/preview_2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Detailed Book Information and Metadata</caption>
+      <image type="source">https://raw.githubusercontent.com/wizread/wizread-flathub-upstream/main/preview_3.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>User Profile and Reading Statistics</caption>
+      <image type="source">https://raw.githubusercontent.com/wizread/wizread-flathub-upstream/main/preview_4.png</image>
     </screenshot>
   </screenshots>
+
+  <content_rating type="oars-1.1" />
+
   <releases>
     <release version="1.0.15" date="2026-07-04" />
   </releases>
